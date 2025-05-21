@@ -14,5 +14,15 @@ int main()
     cin >> L;
     cout << "Введите Q" << endl;
     cin >> Q;
-    
+     double Re = d / pow(10, -6);
+    if (Re < 2320)
+    {
+        L = 64 / Re;
+    }
+    else
+    {
+        L = pow((0.3 / Re), 0.25);
+    }
+    double W = (0.2 * Q) / (5.7 * d * t);
+    double h = L * (L / (1.96 * d * d));
 }
