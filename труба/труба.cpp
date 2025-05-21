@@ -2,5 +2,6 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!";
+    setlocale (0,"");
+    double A, p, t;
 }
