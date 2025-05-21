@@ -26,8 +26,9 @@ int main()
     double W = (0.2 * Q) / (5.7 * d * t);
     double h = L * (L / (1.96 * d * d));
 }
-cout << "Есть поток турбулентности"<< endl;
+cout << h <<"Есть поток турбулентности"<< endl;
 double H = Hg + h + 5;
-cout << W << endl;
+Q=W/t;
+cout << Q << endl;
 cout << H << endl;
 }
